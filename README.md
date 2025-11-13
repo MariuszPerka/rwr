@@ -1,2 +1,1 @@
 # rwr
-opis projektu :)
