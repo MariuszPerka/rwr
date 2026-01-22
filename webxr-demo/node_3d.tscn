@@ -55,6 +55,7 @@ script = ExtResource("2_r3fl7")
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 1, 0, 0, 0)
 
 [node name="LeftController" type="XRController3D" parent="XROrigin3D"]
+transform = Transform3D(0.007906333, 0, -0.99996877, 0, 1, 0, 0.99996877, 0, 0.007906333, -0.13064641, 0, 0.18568268)
 tracker = &"left_hand"
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="XROrigin3D/LeftController"]
@@ -66,6 +67,7 @@ mesh = SubResource("SphereMesh_noarx")
 transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -0.12712628, 0.28800094, 0)
 
 [node name="RightController" type="XRController3D" parent="XROrigin3D"]
+transform = Transform3D(0.0348821, 0, -0.99939144, 0, 1, 0, 0.99939144, 0, 0.0348821, 0.063945964, 0, 0)
 tracker = &"right_hand"
 script = ExtResource("4_jka67")
 
